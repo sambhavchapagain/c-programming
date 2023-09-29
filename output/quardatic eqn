@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+int a,b,c,d,e;
+int x;
+printf("compare the n with ax^2 + bx +c");
+printf("input the values of a b and c :");
+scanf("%d %d %d",&a ,&b ,&c);
+d = pow(b,2);
+e = 4*a*c;
+x = (-b+sqrt(d-e))/(2*a);
+printf("the value of x is:%d \n",x);
+x = (-b-sqrt(d-e))/(2*a);
+printf("the value of x is: %d\n",x);
+return 0;
+getch();
+}
