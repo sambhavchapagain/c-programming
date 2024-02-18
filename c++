@@ -18,8 +18,6 @@ Choice getUserChoice() {
     int choice;
     std::cout << "Enter your choice (1-3): ";
     std::cin >> choice;
-
-    // Validate user input
     while (choice < 1 || choice > 3) {
         std::cout << "Invalid choice. Please enter a number between 1 and 3: ";
         std::cin >> choice;
