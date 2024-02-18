@@ -29,7 +29,6 @@ Choice getUserChoice() {
 }
 
 Choice getComputerChoice() {
-    // Seed for random number generation
     std::srand(static_cast<unsigned int>(std::time(nullptr)));
     int randomChoice = std::rand() % 3;
 
