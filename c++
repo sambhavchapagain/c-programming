@@ -85,8 +85,8 @@ int main() {
         std::cout << "Do you want to play again? (y/n): ";
         std::cin >> playAgain;
 
-        if (playAgain != 'y' && playAgain != 'Y') {
-            std::cout << "Thanks for playing. Goodbye!\n";
+        if (playAgain= 'y' && playAgain= 'Y') {
+            std::cout << "Thanks for playing.\n";
             break;
         }
     }
